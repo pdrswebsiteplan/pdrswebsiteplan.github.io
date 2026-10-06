@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nestor's 3 Day Home Workout Plan</title>
+<style>
+:root{--bg:#0d0716;--card:#1a0f2b;--line:#33214f;--p:#a855f7;--p2:#c084fc;--tx:#efe7fa;--mu:#a999c4;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:#050309;color:var(--tx);font-family:Georgia,'Times New Roman',serif;line-height:1.55;overflow-x:hidden}
+body::before,body::after{content:'';position:fixed;inset:-20%;z-index:0;pointer-events:none;filter:blur(40px)}
+body::before{background:radial-gradient(circle at 25% 30%,#5b1aa8 0,transparent 32%),radial-gradient(circle at 75% 70%,#3a0e6e 0,transparent 36%);animation:d1 16s ease-in-out infinite alternate}
+body::after{background:radial-gradient(circle at 70% 20%,#7e22ce88 0,transparent 28%),radial-gradient(circle at 20% 80%,#2a0a4f 0,transparent 34%);animation:d2 22s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(8%,6%) scale(1.15)}}@keyframes d2{to{transform:translate(-9%,-7%) scale(1.2)}}
+@keyframes pu{50%{box-shadow:0 0 34px #a855f788}}
+@media(prefers-reduced-motion:reduce){body::before,body::after,.ban{animation:none}}
+.w{position:relative;z-index:1}
+.ban{background:linear-gradient(135deg,#6b21a8,#a855f7);border-radius:18px;padding:18px;margin:22px 0;animation:pu 3s ease-in-out infinite;text-align:center}
+.ban b{font-size:clamp(22px,6vw,32px);display:block;color:#fff}.ban span{color:#f1e4ff}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:12px}
+.days button{font:600 12px system-ui,sans-serif;padding:10px 0;border-radius:10px;border:1px solid #ffffff55;background:#00000033;color:#fff;cursor:pointer}
+.days button.on{background:#fff;color:#6b21a8}
+.w{max-width:760px;margin:0 auto;padding:28px 18px 60px}
+h1{font-size:clamp(34px,8vw,56px);margin:6px 0;letter-spacing:.5px;background:linear-gradient(90deg,#fff,var(--p2));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:22px;margin:38px 0 12px;color:var(--p2)}
+.k{font:600 12px system-ui,sans-serif;letter-spacing:3px;color:var(--p);text-transform:uppercase}
+.sub{color:var(--mu)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin:22px 0}
+.st{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.st b{display:block;font:600 11px system-ui,sans-serif;letter-spacing:2px;color:var(--mu);text-transform:uppercase}
+.st span{font-size:18px}
+.tabs{display:flex;gap:8px;position:sticky;top:env(safe-area-inset-top,0px);padding:10px 0;background:linear-gradient(var(--bg) 70%,transparent);z-index:2}
+.tabs button{flex:1;font:600 14px system-ui,sans-serif;padding:12px 6px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--mu);cursor:pointer}
+.tabs button.on{background:linear-gradient(135deg,#7e22ce,var(--p));color:#fff;border-color:var(--p);box-shadow:0 0 22px #a855f755}
+.ex{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;margin:10px 0;cursor:pointer;transition:.2s}
+.ex:hover{border-color:var(--p)}
+.ex.done{opacity:.5}.ex.done .n{text-decoration:line-through}
+.fig{flex:0 0 76px;height:76px;border-radius:12px;background:#120a21;border:1px solid var(--line);color:var(--p2)}
+.fig svg{width:100%;height:100%;stroke:currentColor;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 4px #a855f7)}
+.n{font-size:18px}.d{color:var(--mu);font-size:15px}
+.chk{margin-left:auto;width:26px;height:26px;border-radius:50%;border:2px solid var(--p);flex:none;display:grid;place-items:center;color:transparent;font:700 14px system-ui}
+.done .chk{background:var(--p);color:#fff}
+ul{padding-left:20px;margin:6px 0}li{margin:3px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin:10px 0}
+.wk{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+.wk div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.wk .s{border-color:var(--p);box-shadow:0 0 14px #a855f733}
+.wk b{color:var(--p2);display:block;font:600 12px system-ui,sans-serif;letter-spacing:2px;text-transform:uppercase}
+.bar{height:8px;background:#120a21;border-radius:9px;overflow:hidden;margin:6px 0 2px}.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#7e22ce,var(--p2));transition:.3s}
+.prog{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.prog div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.prog b{color:var(--p2)}
+</style></head><body><div class="w">
+<div class="k">Home plan with dumbbells</div>
+<h1>Nestor's 3 Day Plan</h1>
+<p class="sub">Push, pull and legs, each one finished with abs. Add a bit of running and 10,000 steps every single day.</p>
+<div class="stats">
+<div class="st"><b>Age</b><span>43</span></div><div class="st"><b>Weight</b><span>68 kg</span></div><div class="st"><b>Height</b><span>167 cm</span></div><div class="st"><b>Session</b><span>45 to 55 min</span></div></div>
+<div class="ban"><b>10,000 steps. Every day. No excuses.</b><span>Training days, running days, rest days, all of them. Tap each day when it is done.</span><div class="days" id="days"></div></div>
+<div class="box"><b>The goal:</b> lose fat while keeping and building muscle. Strength training, running, 10,000 steps and a calorie deficit all work together.</div>
+
+<h2>Your sessions</h2>
+<div class="tabs" id="tabs"></div>
+<div id="warm" class="box"></div>
+<div class="bar"><i id="bar"></i></div><div class="sub" id="cnt" style="font-size:14px"></div>
+<div id="list"></div>
+<p class="sub" id="rest"></p>
+
+<h2>Your week</h2>
+<div class="wk">
+<div class="s"><b>Monday</b>Push + abs, plus 10,000 steps</div><div><b>Tuesday</b>Running and 10,000 steps</div>
+<div class="s"><b>Wednesday</b>Pull + abs, plus 10,000 steps</div><div><b>Thursday</b>Running and 10,000 steps</div>
+<div class="s"><b>Friday</b>Legs + abs, plus 10,000 steps</div><div><b>Saturday</b>Running or light activity and 10,000 steps</div>
+<div><b>Sunday</b>Recovery and 10,000 easy steps</div></div>
+<p class="sub">Move the running days around based on how he feels and what he already runs. Try not to put the hardest run right before leg day.</p>
+
+<h2>Fat loss habits</h2>
+<div class="box"><ul><li>10,000 steps every day, no excuses. Rest day, busy day, tired day, it still counts. Make it a habit, not just something that happens on workout days.</li><li>Keep running as already planned.</li><li>Calorie deficit and consistency matter more than turning every workout into a cardio circuit.</li></ul></div>
+
+<h2>How to progress</h2>
+<div class="prog"><div><b>Week 1</b><br>10 reps</div><div><b>Week 2</b><br>15 reps</div><div><b>Week 3</b><br>18 reps</div><div><b>Week 4</b><br>Go up a little in dumbbell weight and drop back to 10 reps on the last set</div></div>
+<p class="sub">If his form starts to slip, the weight stays where it is.</p>
+
+<h2>Intensity and technique</h2>
+<div class="box"><ul><li>Most sets should end with about 1 to 3 good reps still in the tank. No need to hit failure on every set.</li><li>Quality beats speed. Keep it slow and controlled, especially on squats, lunges, Romanian deadlifts, rows and shoulder presses.</li></ul></div>
+</div>
+<script>
+const W=['March or jog in place, 1 minute','Arm circles, 20 reps','Bodyweight squats, 10 reps','Hip rotations, 10 each side','Reverse lunges, 8 each leg','Light jumping jacks, 30 seconds'];
+const D=[
+{t:'Day 1 · Monday',s:'Push + Abs',e:[['Dumbbell Floor Press','3 sets of 10 to 12 reps','li'],['Dumbbell Shoulder Press','3 sets of 8 to 12 reps','up'],['Dumbbell Lateral Raise','3 sets of 12 to 15 reps','up'],['Dumbbell Overhead Triceps Extension','2 to 3 sets of 10 to 15 reps','up'],['Plank','3 sets of 20 to 40 seconds','pl']]},
+{t:'Day 2 · Wednesday',s:'Pull + Abs',e:[['One-Arm Dumbbell Row','3 sets of 10 to 12 reps each side','hi'],['Dumbbell Bent-Over Row','3 sets of 10 to 12 reps','hi'],['Dumbbell Romanian Deadlift','3 sets of 10 to 12 reps','hi'],['Dumbbell Biceps Curl','2 to 3 sets of 10 to 15 reps','up'],['Dead Bug','3 sets of 8 to 12 reps each side','li']]},
+{t:'Day 3 · Friday',s:'Legs + Abs',e:[['Dumbbell Goblet Squat','3 sets of 10 to 12 reps','sq'],['Reverse Lunges','3 sets of 8 to 10 reps each leg','lu'],['Dumbbell Glute Bridge','3 sets of 12 to 15 reps','li'],['Standing Calf Raise','2 to 3 sets of 15 to 20 reps','up'],['Bird Dog','3 sets of 8 to 12 reps each side','pl']]}];
+const P={
+up:'<circle cx="32" cy="10" r="5"/><path d="M32 15V38M32 38L26 58M32 38L38 58M32 20L22 9M32 20L42 9M18 9H26M38 9H46"/>',
+sq:'<circle cx="28" cy="16" r="5"/><path d="M30 21L34 38L48 40L46 58M32 27L46 29M43 24V34"/>',
+lu:'<circle cx="30" cy="10" r="5"/><path d="M30 15V36L42 40V58M30 36L18 46L12 58M30 20V34"/>',
+hi:'<circle cx="46" cy="22" r="5"/><path d="M20 36L42 27M20 36V58M42 29V46M37 46H47"/>',
+li:'<circle cx="10" cy="46" r="5"/><path d="M4 56H60M16 48H40L48 36L56 48M24 48V32M18 32H30"/>',
+pl:'<circle cx="10" cy="30" r="5"/><path d="M15 34L52 44M18 36V54M52 44V54M4 56H60"/>'};
+let cur=0,done=D.map(d=>new Set());
+function show(i){cur=i;
+tabs.innerHTML=D.map((d,j)=>`<button class="${j==i?'on':''}" onclick="show(${j})">${d.t.split(' · ')[0]}<br><small>${d.t.split(' · ')[1]}</small></button>`).join('');
+warm.innerHTML=`<b>${D[i].s}</b><br><span class="sub">Warm up for 5 to 7 minutes</span>`+(1?'<ul>'+W.map(x=>`<li>${x}</li>`).join('')+'</ul>':'');
+list.innerHTML=D[i].e.map((x,j)=>`<div class="ex ${done[i].has(j)?'done':''}" onclick="tg(${j})"><div class="fig"><svg viewBox="0 0 64 64">${P[x[2]]}</svg></div><div><div class="n">${j+1}. ${x[0]}</div><div class="d">${x[1]}</div></div><div class="chk">✓</div></div>`).join('');
+rest.textContent='Rest 60 to 90 seconds between sets.';
+const n=done[i].size,t=D[i].e.length;bar.style.width=n/t*100+'%';cnt.textContent=n+' of '+t+' exercises done';}
+function tg(j){done[cur].has(j)?done[cur].delete(j):done[cur].add(j);show(cur)}
+const N=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],sd=new Set();
+function sh(){days.innerHTML=N.map((n,k)=>`<button class="${sd.has(k)?'on':''}" onclick="sd.has(${k})?sd.delete(${k}):sd.add(${k});sh()">${n}${sd.has(k)?' ✓':''}</button>`).join('')}
+sh();show(0);
+</script></body></html>
 
